@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4184CE091CBD5F1000D8BFD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4184CE081CBD5F1000D8BFD4 /* main.cpp */; };
+		41BD37471CBEF767005BC96C /* customsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41BD37451CBEF767005BC96C /* customsystem.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4184CE031CBD5F0F00D8BFD4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4184CE051CBD5F1000D8BFD4 /* Emulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Emulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		4184CE081CBD5F1000D8BFD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41BD37451CBEF767005BC96C /* customsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = customsystem.cpp; sourceTree = "<group>"; };
+		41BD37461CBEF767005BC96C /* customsystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = customsystem.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4184CE021CBD5F0F00D8BFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4184CDFC1CBD5F0F00D8BFD4 = {
+			isa = PBXGroup;
+			children = (
+				4184CE071CBD5F1000D8BFD4 /* Emulator */,
+				4184CE061CBD5F1000D8BFD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4184CE061CBD5F1000D8BFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4184CE051CBD5F1000D8BFD4 /* Emulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4184CE071CBD5F1000D8BFD4 /* Emulator */ = {
+			isa = PBXGroup;
+			children = (
+				4184CE081CBD5F1000D8BFD4 /* main.cpp */,
+				41BD37451CBEF767005BC96C /* customsystem.cpp */,
+				41BD37461CBEF767005BC96C /* customsystem.hpp */,
+			);
+			path = Emulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4184CE041CBD5F0F00D8BFD4 /* Emulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4184CE0C1CBD5F1000D8BFD4 /* Build configuration list for PBXNativeTarget "Emulator" */;
+			buildPhases = (
+				4184CE011CBD5F0F00D8BFD4 /* Sources */,
+				4184CE021CBD5F0F00D8BFD4 /* Frameworks */,
+				4184CE031CBD5F0F00D8BFD4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emulator;
+			productName = Emulator;
+			productReference = 4184CE051CBD5F1000D8BFD4 /* Emulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4184CDFD1CBD5F0F00D8BFD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rishin Amin";
+				TargetAttributes = {
+					4184CE041CBD5F0F00D8BFD4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4184CE001CBD5F0F00D8BFD4 /* Build configuration list for PBXProject "Emulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4184CDFC1CBD5F0F00D8BFD4;
+			productRefGroup = 4184CE061CBD5F1000D8BFD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4184CE041CBD5F0F00D8BFD4 /* Emulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4184CE011CBD5F0F00D8BFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4184CE091CBD5F1000D8BFD4 /* main.cpp in Sources */,
+				41BD37471CBEF767005BC96C /* customsystem.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4184CE0A1CBD5F1000D8BFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4184CE0B1CBD5F1000D8BFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4184CE0D1CBD5F1000D8BFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4184CE0E1CBD5F1000D8BFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4184CE001CBD5F0F00D8BFD4 /* Build configuration list for PBXProject "Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184CE0A1CBD5F1000D8BFD4 /* Debug */,
+				4184CE0B1CBD5F1000D8BFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4184CE0C1CBD5F1000D8BFD4 /* Build configuration list for PBXNativeTarget "Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184CE0D1CBD5F1000D8BFD4 /* Debug */,
+				4184CE0E1CBD5F1000D8BFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4184CDFD1CBD5F0F00D8BFD4 /* Project object */;
+}
